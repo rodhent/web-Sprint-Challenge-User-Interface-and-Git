@@ -42,7 +42,7 @@ Semantic gives meaning to the HTML code we write. Semantic HTML tells the browse
 
 3. What are the 4 areas of the box model?
 
-Content - padding - border - margin
+Content - padding - border - margin.
 
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
