@@ -131,7 +131,7 @@ table {
 
 * {
   box-sizing: border-box;
-  /** border: 1px solid grey; **/
+  border: 1px solid grey;
 }
 
 html,
@@ -178,6 +178,18 @@ nav {
   height: 25vh;
 }
 
+.b-image2 {
+  background-image: url(/img/jumbo-about.png);
+  background-size: cover;
+  background-position: top;
+  height: 25vh;
+}
+
+.horzline {
+  border-top: 1px dashed black;
+  width: 0;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -191,6 +203,7 @@ nav {
 }
 
 .horzline {
+  margin: 0 auto;
   border-bottom: 1px dashed black;
 }
 
@@ -300,12 +313,61 @@ nav {
   padding-right: 0;
 }
 
-#content {
-  display: flex;
+.about-text {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  border-bottom: 1px dashed black;
 }
 
-#content p {
-  width: 80%;
+.section1 {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section1 h2 {
+  margin-top: 3%;
+}
+.section2 {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2 h2 {
+  margin-top: 3%;
+}
+
+.b-dot {
+  margin-top: 5%;
+  border-bottom: 1px dashed black;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4 {
+  padding: 2%;
+  width: 100%;
+  text-align: start;
+}
+
+button {
+  background-color: white;
+  border: 3 solid black;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  width: 30%;
+  padding: 2%;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.work-together {
+  padding: 2%;
 }
 
 footer {
